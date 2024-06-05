@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+
+   
+        <node name="sim1" pkg="turtlesim" type="turtlesim_node"/>
+        <node name="teleop" pkg="turtlesim" type="turtle_teleop_key" launch-prefix="gnome-terminal -e"/>
+         
+
+    <node name="sim2" pkg="turtlesim" type="turtlesim_node"/>
+
+     <node name="mimic" pkg="turtlesim" type="mimic">
+        <remap from="input" to="sim1"/>
+        <remap from="output" to="sim2"/>
+        
+     </node>
+</launch>

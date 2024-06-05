@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/redwan/catkin_ws/devel/include/**",
+        "/home/redwan/catkin_ws/src/ball_tracker/include/**",
+        "/home/redwan/catkin_ws/src/cobot_cpp/include/**",
+        "/home/redwan/catkin_ws/src/freenect_stack/freenect_camera/include/**",
+        "/home/redwan/catkin_ws/src/hector_slam/hector_geotiff/include/**",
+        "/home/redwan/catkin_ws/src/hector_slam/hector_map_tools/include/**",
+        "/home/redwan/catkin_ws/src/hector_slam/hector_mapping/include/**",
+        "/home/redwan/catkin_ws/src/hector_slam/hector_marker_drawing/include/**",
+        "/home/redwan/f1tenth_ws/src/lab3/include/**",
+        "/home/redwan/catkin_ws/src/opencv/include/**",
+        "/home/redwan/catkin_ws/src/teleop_twist_joy/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
